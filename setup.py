@@ -15,7 +15,7 @@ setup(
      install_requires=[
         "tensorflow",
         "numpy",
-        "matplotlib",
+        "matplotlib"
     ],
     
 )
