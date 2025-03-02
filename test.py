@@ -9,14 +9,12 @@ class_names = ['car', 'plane', 'cat', 'dog', 'bird', 'deer', 'horse', 'frog', 's
 
 my_file = os.path.join(os.path.dirname(__file__), 'car.jpg')
 
-
 x_train = x_train[:2000]
 y_train = y_train[:2000]
 x_test = x_test[:400]
 y_test = y_test[:400]
 x_train = x_train / 255
 x_test = x_test / 255
-
 
 model = EasyCNN()
 model.add_conv(32, 3)
@@ -30,8 +28,6 @@ model.add_dense(10, activation='softmax')
 model.compile()
 history = model.train(x_train, y_train, x_test, y_test, epochs=5)
 prediction = model.predict(my_file)
-
-print(class_names[prediction])
 
 visualizer = TrainingVisualizer()
 visualizer.plot_training(history)
