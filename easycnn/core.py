@@ -17,6 +17,14 @@ class EasyCNN:
         self.model.add(layers.Dense(filters, activation=activation))
     def add_dropout(self, value = 0.3):
         self.model.add(layers.Dropout(value))
+    def add_batch_normalization(self):
+        self.model.batchNormalization()
+    def add_r_flip(self, value="horizontal"):
+        self.model.add(layers.RandomFlip(value))
+    def add_r_rotate(self, value=0.2):
+        self.model.add(layers.RandomRotation(value))
+    def add_r_zoom(self, value=0.2):
+        self.model.add(layers.RandomZoom(value))
     def compile(self, optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy']):
         self.model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
     def train(self, x, y, test_x, test_y, epochs=10, batch_size=32):
@@ -25,6 +33,7 @@ class EasyCNN:
         self.model.save(path)
     def load(self, path):
         self.model = models.load_model(path)
+
         
     def predict(self, x):
         img = cv.imread(x)
