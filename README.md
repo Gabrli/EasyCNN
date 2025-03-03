@@ -59,7 +59,7 @@ Please adhere to this project's `code of conduct`.
 
 ## Usage/Examples
 
-```jpython
+```python
 from easycnn.core import EasyCNN
 from easycnn.visualizer import TrainingVisualizer
 import os
@@ -93,6 +93,5 @@ prediction = model.predict(my_file)
 
 visualizer = TrainingVisualizer()
 visualizer.plot_training(history)
-
 ```
 
