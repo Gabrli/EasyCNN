@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+easycnn.egg-info/PKG-INFO
+easycnn.egg-info/SOURCES.txt
+easycnn.egg-info/dependency_links.txt
+easycnn.egg-info/requires.txt
+easycnn.egg-info/top_level.txt

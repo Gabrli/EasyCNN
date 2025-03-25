@@ -5,6 +5,8 @@ class EasyCNN:
     def __init__(self, input_shape=[32,32,3]):
         self.model = models.Sequential()
         self.input_shape = input_shape
+    def add(self,layers):
+        self.model.add(layers)
     def add_conv(self, filters, kernel_size, activation='relu'):
         if self.model.layers == 0:
             self.model.add(layers.Conv2D(filters, (kernel_size, kernel_size), activation=activation, input_shape=(self.input_shape[0], self.input_shape[1], self.input_shape[2])))

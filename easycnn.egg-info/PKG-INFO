@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: easycnn
+Version: 1.0.0
+Summary: Easy tool to create own cnn in 2 minutes with minmum code and a lot of functions.
+Author: Gabriel Wiśniewski
+Author-email: gabrys.wisniewski@op.pl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: MIT License
+Classifier: Operating System :: OS Independent :: Windows
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: matplotlib
