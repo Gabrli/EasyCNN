@@ -9,7 +9,7 @@ EasyCNN it's liblary enabling quick creating, training and visualizing convoluti
 - Easy definition of CNN layers
 - Training and evolution models
 - Visualization of the model structure
-- 15 ready to easy and quick use the most popular keras applications
+- 15 ready to easy and quick use the most popular presets of keras applications
 
 
 
