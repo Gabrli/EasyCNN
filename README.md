@@ -43,11 +43,13 @@ EasyCNN it's liblary enabling quick creating, training and visualizing convoluti
 - Very easy and comfortable syntax
 - Full control for developer
 - Automatic data preparation and visualization processes
+- Compatibility of model: option to convert to onnx type file.
 
 #### What functionalities are under construction?
 
 - Presets for popular models
 - Exporter and Converter for files with models
+- Special Visualizer to display training process
 
 
 ## Contributing
@@ -59,7 +61,7 @@ See `contributing.md` for ways to get started.
 Please adhere to this project's `code of conduct`.
 
 
-## Usage/Examples
+## Basic Usage/Example
 
 ```python
 from easycnn.core import EasyCNN
