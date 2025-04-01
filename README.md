@@ -10,6 +10,7 @@ EasyCNN it's liblary enabling quick creating, training and visualizing convoluti
 - Training and evolution models
 - Visualization of the model structure
 - 15 ready to easy and quick use the most popular presets of keras applications
+- Easy and quick coversion keras file to onnx
 
 
 
