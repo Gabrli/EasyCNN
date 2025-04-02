@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+litecnn/__init__.py
+litecnn/core.py
+litecnn/exporter.py
+litecnn/presets.py
+litecnn/visualizer.py
+litecnn.egg-info/PKG-INFO
+litecnn.egg-info/SOURCES.txt
+litecnn.egg-info/dependency_links.txt
+litecnn.egg-info/entry_points.txt
+litecnn.egg-info/requires.txt
+litecnn.egg-info/top_level.txt

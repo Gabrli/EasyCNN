@@ -1,7 +1,7 @@
 
-# EasyCNN - Easy Creating and Visualizing CNN Model
+# LiteCNN - Easy Creating and Visualizing CNN Model
 
-EasyCNN is a Python library designed to simplify the creation, training, and visualization of convolutional neural networks (CNNs). It provides an intuitive interface for deep learning enthusiasts and developers who want to work with CNN models without the complexity often associated with neural network frameworks.
+LiteCNN is a Python library designed to simplify the creation, training, and visualization of convolutional neural networks (CNNs). It provides an intuitive interface for deep learning enthusiasts and developers who want to work with CNN models without the complexity often associated with neural network frameworks.
 
 
 ## Features
@@ -16,7 +16,7 @@ EasyCNN is a Python library designed to simplify the creation, training, and vis
 
 ## Documentation
 
-[Documentation](https://github.com/Gabrli/EasyCNN---docs)
+[Documentation](https://github.com/Gabrli/LiteCNN--docs)
 
 
 
@@ -64,8 +64,8 @@ Please adhere to this project's `code of conduct`.
 ## Basic Usage/Example
 
 ```python
-from easycnn.core import EasyCNN
-from easycnn.visualizer import TrainingVisualizer
+from litecnn.core import LiteCNN
+from litecnn.visualizer import TrainingVisualizer
 import os
 from tensorflow.keras.datasets import cifar10
 
@@ -82,7 +82,7 @@ y_test = y_test[:400]
 x_train = x_train / 255
 x_test = x_test / 255
 
-model = EasyCNN()
+model = LiteCNN()
 model.add_conv(32, 3)
 model.add_max_pool(2)
 model.add_conv(64, 3)

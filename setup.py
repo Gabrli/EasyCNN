@@ -4,9 +4,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="easycnnpro",
-    version="1.0.1",
-    description="EasyCnnPro: Intuitive Python library for creating, training and visualizing convolutional neural networks. Features simplified CNN layer definition, automated training workflows, model visualization, and seamless Keras-to-ONNX conversion. Includes 15 pre-configured popular models for immediate use.",
+    name="litecnn",
+    version="1.0.3",
+    description="LiteCNN: Intuitive Python library for creating, training and visualizing convolutional neural networks. Features simplified CNN layer definition, automated training workflows, model visualization, and seamless Keras-to-ONNX conversion. Includes 15 pre-configured popular models for immediate use.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     project_urls={
@@ -32,10 +32,10 @@ setup(
     ],
     entry_points={
         "console_scripts":[
-            "easycnn-core = easycnn:EasyCNN",
-            "easycnn-preset = easycnn:Preset",
-            "easycnn-visualizer = easycnn:TrainingVisualizer",
-            "easycnn-exporter = easycnn:EasyExporter",
+            "litecnn-core = litecnn:LiteCNN",
+            "litecnn-preset = litecnn:Preset",
+            "litecnn-visualizer = litecnn:TrainingVisualizer",
+            "litecnn-exporter = litecnn:EasyExporter",
             
         ]
     }

@@ -1,7 +1,7 @@
 from tensorflow.keras import layers, models
 import numpy as np
 import cv2 as cv
-class EasyCNN:
+class LiteCNN:
     """
     Docs: https://github.com/Gabrli/EasyCNN---docs
     """

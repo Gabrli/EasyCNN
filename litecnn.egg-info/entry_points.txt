@@ -1,0 +1,5 @@
+[console_scripts]
+litecnn-core = litecnn:LiteCNN
+litecnn-exporter = litecnn:EasyExporter
+litecnn-preset = litecnn:Preset
+litecnn-visualizer = litecnn:TrainingVisualizer

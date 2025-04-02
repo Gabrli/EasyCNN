@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
-Name: easycnnpro
-Version: 1.0.1
-Summary: EasyCnnPro: Intuitive Python library for creating, training and visualizing convolutional neural networks. Features simplified CNN layer definition, automated training workflows, model visualization, and seamless Keras-to-ONNX conversion. Includes 15 pre-configured popular models for immediate use.
+Name: litecnn
+Version: 1.0.3
+Summary: LiteCNN: Intuitive Python library for creating, training and visualizing convolutional neural networks. Features simplified CNN layer definition, automated training workflows, model visualization, and seamless Keras-to-ONNX conversion. Includes 15 pre-configured popular models for immediate use.
 Author: Gabriel Wiśniewski
 Author-email: gabrys.wisniewski@op.pl
 Project-URL: Documentation, https://github.com/Gabrli/EasyCNN---docs
@@ -30,9 +30,9 @@ Dynamic: requires-dist
 Dynamic: summary
 
 
-# EasyCNN - Easy Creating and Visualizing CNN Model
+# LiteCNN - Easy Creating and Visualizing CNN Model
 
-EasyCNN is a Python library designed to simplify the creation, training, and visualization of convolutional neural networks (CNNs). It provides an intuitive interface for deep learning enthusiasts and developers who want to work with CNN models without the complexity often associated with neural network frameworks.
+LiteCNN is a Python library designed to simplify the creation, training, and visualization of convolutional neural networks (CNNs). It provides an intuitive interface for deep learning enthusiasts and developers who want to work with CNN models without the complexity often associated with neural network frameworks.
 
 
 ## Features
@@ -47,7 +47,7 @@ EasyCNN is a Python library designed to simplify the creation, training, and vis
 
 ## Documentation
 
-[Documentation](https://github.com/Gabrli/EasyCNN---docs)
+[Documentation](https://github.com/Gabrli/LiteCNN--docs)
 
 
 
@@ -95,8 +95,8 @@ Please adhere to this project's `code of conduct`.
 ## Basic Usage/Example
 
 ```python
-from easycnn.core import EasyCNN
-from easycnn.visualizer import TrainingVisualizer
+from litecnn.core import LiteCNN
+from litecnn.visualizer import TrainingVisualizer
 import os
 from tensorflow.keras.datasets import cifar10
 
@@ -113,7 +113,7 @@ y_test = y_test[:400]
 x_train = x_train / 255
 x_test = x_test / 255
 
-model = EasyCNN()
+model = LiteCNN()
 model.add_conv(32, 3)
 model.add_max_pool(2)
 model.add_conv(64, 3)
