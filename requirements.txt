@@ -1,4 +1,9 @@
-tensorflow>=2.9.0
-opencv-python>=4.5.0
-numpy>=1.20.0
-matplotlib>=3.5.0
+tensorflow
+opencv-python
+numpy
+matplotlib
+tf2onnx
+onnx
+setuptools
+wheel
+twine

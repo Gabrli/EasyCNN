@@ -1,6 +1,11 @@
 LICENSE
 README.md
 setup.py
+easycnn/__init__.py
+easycnn/core.py
+easycnn/exporter.py
+easycnn/presets.py
+easycnn/visualizer.py
 easycnn.egg-info/PKG-INFO
 easycnn.egg-info/SOURCES.txt
 easycnn.egg-info/dependency_links.txt
