@@ -1,16 +1,16 @@
 
 # EasyCNN - Easy Creating and Visualizing CNN Model
 
-EasyCNN it's liblary enabling quick creating, training and visualizing convolutional models (CNN).
+EasyCNN is a Python library designed to simplify the creation, training, and visualization of convolutional neural networks (CNNs). It provides an intuitive interface for deep learning enthusiasts and developers who want to work with CNN models without the complexity often associated with neural network frameworks.
 
 
 ## Features
 
-- Easy definition of CNN layers
-- Training and evolution models
-- Visualization of the model structure
-- 15 ready to easy and quick use the most popular presets of keras applications
-- Easy and quick coversion keras file to onnx
+- Straightforward definition of CNN layers with intuitive syntax
+- Streamlined training and model evolution capabilities
+- Visual representation of model architecture
+- 15 pre-configured popular Keras application models ready for immediate use
+- Seamless conversion of Keras models to ONNX format
 
 
 
