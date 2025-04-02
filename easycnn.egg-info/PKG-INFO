@@ -5,8 +5,8 @@ Summary: EasyCNN: Intuitive Python library for creating, training and visualizin
 Author: Gabriel Wiśniewski
 Author-email: gabrys.wisniewski@op.pl
 Classifier: Programming Language :: Python :: 3
-Classifier: License :: MIT License
-Classifier: Operating System :: OS Independent :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
 License-File: LICENSE
 Requires-Dist: tensorflow
 Requires-Dist: numpy

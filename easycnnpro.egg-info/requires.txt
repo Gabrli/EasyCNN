@@ -1,0 +1,6 @@
+tensorflow
+numpy
+matplotlib
+opencv-python
+tf2onnx
+onnx

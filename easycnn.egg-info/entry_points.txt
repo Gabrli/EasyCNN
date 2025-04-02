@@ -1,0 +1,5 @@
+[console_scripts]
+easycnn-core = easycnn:EasyCNN
+easycnn-exporter = easycnn:EasyExporter
+easycnn-preset = easycnn:Preset
+easycnn-visualizer = easycnn:TrainingVisualizer
